@@ -1,0 +1,14 @@
+httpx
+dotenv
+asyncio
+re
+shutil
+json
+logging
+os
+datetime
+contextlib
+typing
+PyAudio
+SpeechRecognition
+pyttsx3

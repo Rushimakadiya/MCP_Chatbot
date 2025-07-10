@@ -1,0 +1,32 @@
+{
+    "mcpServers": {
+        "Insert_Queries": {
+            "type": "stdio",
+            "command": "{YOUR_PATH}\\venv\\Scripts\\python.exe",
+            "args": [
+                "{YOUR_PATH}\\MyClient_v2_2\\servers\\server_insert.py"
+            ]        
+        },
+        "Read_Queries": {
+            "type": "stdio",
+            "command": "{YOUR_PATH}\\venv\\Scripts\\python.exe",
+            "args": [
+                "{YOUR_PATH}\\MyClient_v2_2\\servers\\server_read.py"
+            ]        
+        },
+        "Admin": {
+            "type": "stdio",
+            "command": "{YOUR_PATH}\\venv\\Scripts\\python.exe",
+            "args": [
+                "{YOUR_PATH}\\MyClient_v2_2\\servers\\Admin.py"
+            ]        
+        },
+        "Payroll": {
+            "type": "stdio",
+            "command": "{YOUR_PATH}\\venv\\Scripts\\python.exe",
+            "args": [
+                "{YOUR_PATH}\\MyClient_v2_2\\servers\\payroll.py"
+            ]        
+        }
+    }
+}
